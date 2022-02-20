@@ -5,9 +5,9 @@
 
 [B站演示视频](https://www.bilibili.com/video/BV1xL4y137Qz)
 
-![](https://github.com/cocowts/DBoS-Desktop/blob/main/image/all.png?raw=true)
-![](https://github.com/cocowts/DBoS-Desktop/blob/main/image/desktop1.png?raw=true)
-![](https://github.com/cocowts/DBoS-Desktop/blob/main/image/desktop2.png?raw=true)
+![](https://github.com/cocowts/DBoS-Desktop/blob/master/PreviewImages!!!!!/all.png?raw=true)
+![](https://github.com/cocowts/DBoS-Desktop/blob/master/PreviewImages!!!!!/desktop1.png?raw=true)
+![](https://github.com/cocowts/DBoS-Desktop/blob/master/PreviewImages!!!!!/desktop2.png?raw=true)
 
 [B站演示视频](https://www.bilibili.com/video/BV1xL4y137Qz)
 
@@ -17,7 +17,7 @@
 
 # 项目介绍
 
-这是一个基于 100ASK_IMX6ULL_PRO 开发板的综合性展示项目，包含上层应用和 linux 设备驱动两大部分。其中上层应用由 Qt 实现（5.14.2, qwidget, qss）, 并在代码结构上对每个 app 进行了界限分明的切割，很容易完成移植。linux 驱动也采用了最简洁明了的方式进行编写
+这是一个基于 100ASK_IMX6ULL_PRO 开发板的综合性展示项目，包含上层应用和 linux 设备驱动两大部分。其中上层应用由 Qt 实现（5.14.2, qwidget, qss）, 并在代码结构上对每个 app 进行了界限分明的切割，很容易完成移植。linux 驱动也采用了最简洁明了的方式进行编写。
 
 ```
 应用程序包含：相机、音乐播放器、计算器、天气、系统信息、录音机（语音识别）、背光控制、视频播放器、OLED显示（数字手写体识别）、红外遥控器、超声波测距、光敏（ADC）、热红外、光照（环境传感器）、按键、地图、温湿度
@@ -25,46 +25,9 @@
 
  `PS：欢迎大家将 DBos 移植到其他开发板`
 
-# 文档结构
+[设备驱动](https://github.com/cocowts/DBoS-Desktop-LinuxDevicedriver) 
 
-`"1. 快速试运行"`: 包含 DBoS 快速上手运行所需要的资源及配置文件
-
-`"2. GUI 源码"`: 包含 Qt 应用程序的完整源码，可依此文件进行二次开发
-
-`"3. 驱动源码"`: 包含 linux 设备驱动的完整源码，可依此进行二次开发
-
-
-# 快速上手【开发板运行环境搭建】
-
-> DBoS 基于 100ASK_IMX6ULL_PRO， 要成功运行，那么需要一块带有屏幕的开发板，同时假定已经完成 [Linux 系列教程（第一篇） - 开发板基础操作](https://www.100ask.net/detail/p_60ff69a7e4b0a27d0e363587/8) 中所提到的内容
-> 
-> ps : app 退出请按开发板左下角物理按键
-
-使用 `"1. 快速试运行"` 中提供的文件进行以下操作后重启开发板
-
-* 替换文件 `/boot/100ask_imx6ull-14x14.dtb`
-
-![](https://github.com/cocowts/DBoS-Desktop/blob/main/image/1.png?raw=true)
-
-* 替换文件 `/etc/profile`
-
-![](https://github.com/cocowts/DBoS-Desktop/blob/main/image/3.png?raw=true)
-
-* 替换文件 `/etc/init.d/S99myirhmi2`
-* 替换文件 `/etc/init.d/S09modload`
-
-![](https://github.com/cocowts/DBoS-Desktop/blob/main/image/4.png?raw=true)
-
-* 复制以下文件夹到开发板 `/` 目录
-
-```
-DBoS : 可执行文件
-video : mp4 视频文件
-music : mp3 音乐文件
-driver: 驱动文件
-```
-
-![](https://github.com/cocowts/DBoS-Desktop/blob/main/image/2.png?raw=true)
+[快速上手](https://github.com/cocowts/DBoS-Desktop/releases/tag/v1.0.0-beta) 
 
 # 二次开发
 
