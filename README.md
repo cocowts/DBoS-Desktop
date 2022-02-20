@@ -25,7 +25,7 @@ DBoS, 源于狄泰软件学院（D）、百问网（B），演示所用知识主
 
  `PS：欢迎大家将 DBos 移植到其他开发板`
 
-[快速上手](https://github.com/cocowts/DBoS-Desktop/releases/tag/v1.0.0-beta) 
+[快速上手试运行](https://github.com/cocowts/DBoS-Desktop/releases/tag/v1.0.0-beta) 
 
 [设备驱动源文件](https://github.com/cocowts/DBoS-Desktop-LinuxDevicedriver) 
 
