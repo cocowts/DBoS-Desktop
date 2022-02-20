@@ -1,0 +1,13 @@
+QDialog#ultrasonicwave_widget {
+    background-color: rgb(30,30,30);
+}
+
+QLabel#ultrasonicwave_icon {
+    image: url(:/misc/ultrasonicwavewidget/images/distance.jpg);
+}
+
+QLabel#ultrasonicwave_state {
+    color: white;
+    font: normal bold 45px;
+    background-color: rgb(134, 175, 129);
+}

@@ -1,0 +1,15 @@
+QPushButton#cameraBtn, QPushButton#musicBtn, QPushButton#calculatorBtn,
+QPushButton#weatherBtn, QPushButton#systemBtn, QPushButton#videoBtn,
+QPushButton#OLEDBtn, QPushButton#remoteControlBtn, QPushButton#ultrasonicWaveBtn,
+QPushButton#photosensitiveBtn, QPushButton#electricityBtn, QPushButton#infraredBtn,
+QPushButton#recorderBtn, QPushButton#illuminationBtn, QPushButton#keyBtn, QPushButton#postureBtn,
+QPushButton#mapBtn, QPushButton#temperatureBtn, QPushButton#keyBtn, QPushButton#backlightBtn {
+    color: white;
+    border-style: none;
+    text-align: bottom;
+    font: normal normal 18px;
+    min-height: 128px;
+    min-width: 64px;
+    outline: none;
+}
+

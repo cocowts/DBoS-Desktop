@@ -1,0 +1,9 @@
+QDialog#illumination_widget {
+    background-color: rgb(30,30,30);
+}
+
+QLabel#illumination_ir, QLabel#illumination_ps, QLabel#illumination_als {
+    color: white;
+    font: normal bold 25px;
+    background-color: transparent;
+}

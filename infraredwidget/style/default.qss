@@ -1,0 +1,12 @@
+QDialog#infrared_widget {
+    background-color: rgb(30,30,30);
+}
+
+QLabel#infrared_icon {
+    background-color: rgb(41, 183, 175);
+}
+
+QLabel#infrared_state {
+    color: white;
+    font: normal bold 45px;
+}

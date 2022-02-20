@@ -1,0 +1,12 @@
+QDialog#recorder_widget {
+    background-color: rgb(0, 0, 31);
+}
+
+QLabel#recorder_textLbl {
+    color: white;
+    font: normal normal 25px;
+}
+
+QLabel#recorder_iconLbl {
+    background-color: transparent;
+}

@@ -1,0 +1,104 @@
+QWidget#weather_widget, QWidget#weather_centerWidget {
+    background-color: rgb(30, 30, 30);
+}
+
+QLabel#weather_listUpdetimeLbl {
+    color: rgb(192, 179, 170);
+}
+
+QLabel#weather_airQualityLbl {
+    color: rgb(192, 179, 170);
+}
+
+QWidget#weather_currentWeatherWidget {
+    background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1, stop:0 rgb(220, 227, 251), stop:1 rgb(253, 229, 203));
+    border-radius: 20px;
+}
+
+QWidget#weather_detailedWidget {
+    background-color: rgba(211, 211, 211, 130);
+    border-radius: 20px;
+}
+
+QLabel#weather_tempLbl {
+    font: normal normal 45px;
+}
+
+QLabel#weather_textLbl {
+    font: normal normal 23px;
+}
+
+QLabel#weather_text {
+    font: normal normal 20px;
+}
+
+QLabel#weather_windScaleLbl, QLabel#weather_humidityValueLbl, QLabel#weather_ultravioletValueLbl, QLabel#weather_feelsLikeValueLbl,
+QLabel#weather_visValueLbl, QLabel#weather_precipValueLbl, QLabel#weather_pressurepValueLbl {
+    font: normal normal 23px;
+}
+
+QLabel#weather_windDirLbl, QLabel#weather_humidityLbl, QLabel#weather_ultravioletLbl, QLabel#weather_feelsLikeLbl,
+QLabel#weather_visLbl, QLabel#weather_precipLbl, QLabel#weather_pressurepLbl {
+    font: normal normal 20px;
+    color: rgb(108, 111, 122);
+}
+
+QWidget#weather_hourshWeather {
+    background-color: rgb(247, 248, 249);
+    border-radius: 20px;
+}
+
+QLabel#weather_hoursWeatherIcon0, QLabel#weather_hoursWeatherIcon1, QLabel#weather_hoursWeatherIcon2, QLabel#weather_hoursWeatherIcon3,
+QLabel#weather_hoursWeatherIcon4, QLabel#weather_hoursWeatherIcon5, QLabel#weather_hoursWeatherIcon6, QLabel#weather_hoursWeatherIcon7 {
+
+}
+
+QLabel#weather_hoursWeatherTime0, QLabel#weather_hoursWeatherTime1, QLabel#weather_hoursWeatherTime2, QLabel#weather_hoursWeatherTime3,
+QLabel#weather_hoursWeatherTime4, QLabel#weather_hoursWeatherTime5, QLabel#weather_hoursWeatherTime6, QLabel#weather_hoursWeatherTime7 {
+    font: normal normal 20px;
+    color: rgb(136, 136, 137);
+}
+
+QScrollArea#weather_scrollArea {
+    background: transparent;
+    border: 1px solid transparent;
+}
+
+QWidget#weather_dayWeather {
+    background-color: rgb(247, 248, 249);
+    border-radius: 20px;
+}
+
+QLabel#weather_dayTemp0, QLabel#weather_dayTemp1, QLabel#weather_dayTemp2, QLabel#weather_dayTemp3,
+QLabel#weather_dayTemp4, QLabel#weather_dayTemp5, QLabel#weather_dayTemp6 {
+    font: normal normal 20px;
+    color: rgb(108, 111, 122);
+    padding-top:6px;
+}
+
+QLabel#weather_dayText0, QLabel#weather_dayText1, QLabel#weather_dayText2, QLabel#weather_dayText3,
+QLabel#weather_dayText4, QLabel#weather_dayText5, QLabel#weather_dayText6 {
+    font: normal normal 20px;
+    color: rgb(108, 111, 122);
+}
+
+QLabel#weather_dayDate0, QLabel#weather_dayDate1, QLabel#weather_dayDate2, QLabel#weather_dayDate3,
+QLabel#weather_dayDate4, QLabel#weather_dayDate5, QLabel#weather_dayDate6 {
+    font: normal normal 18px;
+    color: rgb(108, 111, 122);
+    padding-top:2px;
+}
+
+QProgressBar#weather_dayTempProgressBar0, QProgressBar#weather_dayTempProgressBar1, QProgressBar#weather_dayTempProgressBar2, QProgressBar#weather_dayTempProgressBar3,
+QProgressBar#weather_dayTempProgressBar4, QProgressBar#weather_dayTempProgressBar5, QProgressBar#weather_dayTempProgressBar6 {
+    background-color: rgb(247, 248, 249);
+    width: 8px;
+    border-style: none;
+}
+
+QProgressBar#weather_dayTempProgressBar0::chunk, QProgressBar#weather_dayTempProgressBar1::chunk, QProgressBar#weather_dayTempProgressBar2::chunk, QProgressBar#weather_dayTempProgressBar3::chunk,
+QProgressBar#weather_dayTempProgressBar4::chunk, QProgressBar#weather_dayTempProgressBar5::chunk, QProgressBar#weather_dayTempProgressBar6::chunk{
+    border-radius: 1px;
+    background: rgb(66, 123, 255);
+    background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 rgb(237, 130, 99), stop:1 rgb(69, 123, 253));
+}

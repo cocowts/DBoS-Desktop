@@ -1,0 +1,33 @@
+QDialog#electricity_widget {
+    background-color: rgb(30,30,30);
+}
+
+QLabel#electricity_valueLbl {
+    color: white;
+    font: normal bold 25px;
+}
+
+QSlider#electricity_slider {
+    min-height: 38px;
+    padding-left: 9px;
+    padding-right: 9px;
+}
+
+QSlider#electricity_slider::groove:horsizontal {
+    height: 6px;
+    border: 0px;
+    border-radius: 3px;
+    background: white;
+}
+
+QSlider#electricity_slider::sub-page:horizontal {
+    background: rgb(18, 150, 219);
+    border-radius: 3px;
+}
+
+QSlider#electricity_slider::handle:horizontal {
+    background: transparent;
+    width: 38px;
+    margin: -16px -9px;
+    border-image:url(:/misc/electricitywidget/images/point.png);
+}

@@ -1,0 +1,8 @@
+QDialog#key_widget {
+    background-color: black;
+}
+
+QLabel#key_icon {
+    color: white;
+    font: normal bold 35px;
+}

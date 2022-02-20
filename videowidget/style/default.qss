@@ -1,0 +1,102 @@
+QDialog#video_widget {
+    image: url(:/misc/videowidget/images/background.png);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-color: rgb(30,30,30);
+}
+
+QLabel#video_curTimeLbl, QLabel#video_totaTimelbl, QLabel#video_delimiterLbl {
+    color: white;
+    font: normal bold 16px;
+}
+
+QListWidget#video_listWidget {
+    background-color: rgba(0,0,0,50);
+}
+
+QWidget#video_ctrlWidget {
+    background-color: rgba(0,0,0,50);
+}
+
+QPushButton#video_stopBtn, QPushButton#video_preBtn, QPushButton#video_pauseBtn, QPushButton#video_nextBtn,
+QPushButton#video_modeBtn, QPushButton#video_volumeBtn {
+    border-style: none;
+    height: 56px;
+    width: 56px;
+    outline: none;
+}
+
+QPushButton#video_stopBtn {
+    image: url(:/misc/videowidget/images/stop.png);
+}
+
+QPushButton#video_preBtn {
+    image: url(:/misc/videowidget/images/previous.png);
+}
+
+QPushButton#video_pauseBtn {
+    image: url(:/misc/videowidget/images/play.png);
+}
+
+QPushButton#video_nextBtn {
+    image: url(:/misc/videowidget/images/next.png);
+}
+
+QPushButton#video_modeBtn {
+    image: url(:/misc/videowidget/images/loop.png);
+}
+
+QPushButton#video_volumeBtn {
+    image: url(:/misc/videowidget/images/sound.png);
+}
+
+QSlider#video_volumeSlider, QSlider#video_progressBarSlider {
+    min-height: 38px;
+    padding-left: 9px;
+    padding-right: 9px;
+}
+
+QSlider#video_volumeSlider::groove:horsizontal,
+QSlider#video_progressBarSlider::groove:horsizontal {
+    height: 6px;
+    border: 0px;
+    border-radius: 3px;
+    background: white;
+}
+
+QSlider#video_volumeSlider::sub-page:horizontal,
+QSlider#video_progressBarSlider::sub-page:horizontal {
+    background: rgb(18, 150, 219);
+    border-radius: 3px;
+}
+
+QSlider#video_volumeSlider::handle:horizontal,
+QSlider#video_progressBarSlider::handle:horizontal {
+    background: transparent;
+    width: 38px;
+    margin: -16px -9px;
+    border-image:url(:/misc/videowidget/images/point.png);
+}
+
+QListWidget#video_listWidget {
+    background: rgba(30,30,30,80);
+    color:white;
+    border: 1px solid transparent;
+    outline: none;
+    font: normal bold 25px;
+}
+
+QListWidget#video_listWidget::item{
+    padding:10px;
+    color:white;
+    outline: none;
+    font: normal bold 20px;
+    border-style: none;
+}
+
+QListWidget#video_listWidget::item::selected {
+    background: rgb(48, 49, 44, 80);
+    border-bottom:1px solid rgb(121,112,52);
+    outline: none;
+}
+

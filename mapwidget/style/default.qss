@@ -1,0 +1,9 @@
+QDialog#map_widget {
+    background-color: rgb(94, 70, 116);
+}
+
+QLabel#logoLabel {
+    color: white;
+    background-color: rgba(30, 30, 30, 150);
+    font: normal normal 20px;
+}

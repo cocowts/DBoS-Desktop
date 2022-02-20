@@ -1,0 +1,19 @@
+QWidget {
+    background-color: rgb(30, 30, 30);
+    border: 2px solid white;
+    outline: none;
+}
+
+QLabel {
+    color: white;
+    font: normal normal 18px;
+    border-color:transparent;
+}
+
+QPushButton {
+    background-color: rgb(0, 0, 0);
+    border: 3px solid rgb(122, 122, 122);
+    border-radius: 5px;
+    font: normal normal 18px;
+    color: white;
+}

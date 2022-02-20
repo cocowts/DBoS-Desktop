@@ -1,0 +1,34 @@
+QDialog#oled_widget {
+    background-color: black;
+}
+
+QWidget#oled_ctrlwidget {
+    background-color: rgb(30,30,30);
+}
+
+QComboBox#oled_numBox {
+    background-color: rgba(0, 0, 0);
+    font: normal normal 28px;
+    color: white;
+    padding-left: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    outline: none;
+}
+
+QPushButton#oled_numBox, QPushButton#oled_studyBtn,
+    QPushButton#oled_clearBtn, QPushButton#oled_identifyBtn {
+    background-color: rgb(0, 0, 0);
+    border: 3px solid rgb(122, 122, 122);
+    border-radius: 2px;
+    padding: 8px;
+    font: normal normal 25px;
+    outline: none;
+    color: white;
+}
+
+QPushButton#oled_numBox:pressed, QPushButton#oled_studyBtn:pressed,
+    QPushButton#oled_clearBtn:pressed, QPushButton#oled_identifyBtn:pressed {
+    padding-right:6px;
+    padding-bottom:6px;
+}

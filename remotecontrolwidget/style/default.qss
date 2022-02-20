@@ -1,0 +1,186 @@
+QDialog#remotecontrol_widget {
+    background-color: rgb(30,30,30);
+}
+
+QWidget#remotecontrol_ctrlPanel {
+    background-color: white;
+    border-radius: 16px;
+    border: 3px solid black;
+}
+
+QPushButton#remotecontrol_powerBtn,  QPushButton#remotecontrol_menuBtn,
+QPushButton#remotecontrol_testBtn, QPushButton#remotecontrol_addBtn, QPushButton#remotecontrol_recallBtn,
+QPushButton#remotecontrol_preBtn, QPushButton#remotecontrol_playBtn, QPushButton#remotecontrol_nextBtn,
+QPushButton#remotecontrol_num0Btn, QPushButton#remotecontrol_subBtn, QPushButton#remotecontrol_numcBtn,
+QPushButton#remotecontrol_num1Btn, QPushButton#remotecontrol_num2Btn, QPushButton#remotecontrol_num3Btn,
+QPushButton#remotecontrol_num4Btn, QPushButton#remotecontrol_num5Btn, QPushButton#remotecontrol_num6Btn,
+QPushButton#remotecontrol_num7Btn, QPushButton#remotecontrol_num8Btn, QPushButton#remotecontrol_num9Btn {
+    border-style: none;
+    background-origin: content;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    min-height: 64px;
+    min-width: 64px;
+    outline: none;
+}
+
+QPushButton#remotecontrol_powerBtn {
+    image: url(:/misc/remotecontrolwidget/images/power.png);
+}
+
+QPushButton#remotecontrol_menuBtn {
+    image: url(:/misc/remotecontrolwidget/images/menu.png);
+}
+
+QPushButton#remotecontrol_testBtn {
+    image: url(:/misc/remotecontrolwidget/images/test.png);
+}
+
+QPushButton#remotecontrol_addBtn {
+    image: url(:/misc/remotecontrolwidget/images/add.png);
+}
+
+QPushButton#remotecontrol_recallBtn {
+    image: url(:/misc/remotecontrolwidget/images/recall.png);
+}
+
+QPushButton#remotecontrol_preBtn {
+    image: url(:/misc/remotecontrolwidget/images/pre.png);
+}
+
+QPushButton#remotecontrol_playBtn {
+    image: url(:/misc/remotecontrolwidget/images/play.png);
+}
+
+QPushButton#remotecontrol_nextBtn {
+    image: url(:/misc/remotecontrolwidget/images/next.png);
+}
+
+QPushButton#remotecontrol_subBtn {
+    image: url(:/misc/remotecontrolwidget/images/sub.png);
+}
+
+QPushButton#remotecontrol_numcBtn {
+    image: url(:/misc/remotecontrolwidget/images/C.png);
+}
+
+QPushButton#remotecontrol_num0Btn {
+    image: url(:/misc/remotecontrolwidget/images/num_0.png);
+}
+
+QPushButton#remotecontrol_num1Btn {
+    image: url(:/misc/remotecontrolwidget/images/num_1.png);
+}
+
+QPushButton#remotecontrol_num2Btn {
+    image: url(:/misc/remotecontrolwidget/images/num_2.png);
+}
+
+QPushButton#remotecontrol_num3Btn {
+    image: url(:/misc/remotecontrolwidget/images/num_3.png);
+}
+
+QPushButton#remotecontrol_num4Btn {
+    image: url(:/misc/remotecontrolwidget/images/num_4.png);
+}
+
+QPushButton#remotecontrol_num5Btn {
+    image: url(:/misc/remotecontrolwidget/images/num_5.png);
+}
+
+QPushButton#remotecontrol_num6Btn {
+    image: url(:/misc/remotecontrolwidget/images/num_6.png);
+}
+
+QPushButton#remotecontrol_num7Btn {
+    image: url(:/misc/remotecontrolwidget/images/num_7.png);
+}
+
+QPushButton#remotecontrol_num8Btn {
+    image: url(:/misc/remotecontrolwidget/images/num_8.png);
+}
+
+QPushButton#remotecontrol_num9Btn {
+    image: url(:/misc/remotecontrolwidget/images/num_9.png);
+}
+
+QPushButton#remotecontrol_powerBtn:pressed {
+    image: url(:/misc/remotecontrolwidget/images/power_hover.png);
+}
+
+QPushButton#remotecontrol_menuBtn:pressed {
+    image: url(:/misc/remotecontrolwidget/images/menu_hover.png);
+}
+
+QPushButton#remotecontrol_testBtn:pressed {
+    image: url(:/misc/remotecontrolwidget/images/test_hover.png);
+}
+
+QPushButton#remotecontrol_addBtn:pressed {
+    image: url(:/misc/remotecontrolwidget/images/add_hover.png);
+}
+
+QPushButton#remotecontrol_recallBtn:pressed {
+    image: url(:/misc/remotecontrolwidget/images/recall_hover.png);
+}
+
+QPushButton#remotecontrol_preBtn:pressed {
+    image: url(:/misc/remotecontrolwidget/images/pre_hover.png);
+}
+
+QPushButton#remotecontrol_playBtn:pressed {
+    image: url(:/misc/remotecontrolwidget/images/play_hover.png);
+}
+
+QPushButton#remotecontrol_nextBtn:pressed {
+    image: url(:/misc/remotecontrolwidget/images/next_hover.png);
+}
+
+QPushButton#remotecontrol_subBtn:pressed {
+    image: url(:/misc/remotecontrolwidget/images/sub_hover.png);
+}
+
+QPushButton#remotecontrol_numcBtn:pressed {
+    image: url(:/misc/remotecontrolwidget/images/C_hover.png);
+}
+
+QPushButton#remotecontrol_num0Btn:pressed {
+    image: url(:/misc/remotecontrolwidget/images/num_0_hover.png);
+}
+
+QPushButton#remotecontrol_num1Btn:pressed {
+    image: url(:/misc/remotecontrolwidget/images/num_1_hover.png);
+}
+
+QPushButton#remotecontrol_num2Btn:pressed {
+    image: url(:/misc/remotecontrolwidget/images/num_2_hover.png);
+}
+
+QPushButton#remotecontrol_num3Btn:pressed {
+    image: url(:/misc/remotecontrolwidget/images/num_3_hover.png);
+}
+
+QPushButton#remotecontrol_num4Btn:pressed {
+    image: url(:/misc/remotecontrolwidget/images/num_4_hover.png);
+}
+
+QPushButton#remotecontrol_num5Btn:pressed {
+    image: url(:/misc/remotecontrolwidget/images/num_5_hover.png);
+}
+
+QPushButton#remotecontrol_num6Btn:pressed {
+    image: url(:/misc/remotecontrolwidget/images/num_6_hover.png);
+}
+
+QPushButton#remotecontrol_num7Btn:pressed {
+    image: url(:/misc/remotecontrolwidget/images/num_7_hover.png);
+}
+
+QPushButton#remotecontrol_num8Btn:pressed {
+    image: url(:/misc/remotecontrolwidget/images/num_8_hover.png);
+}
+
+QPushButton#remotecontrol_num9Btn:pressed {
+    image: url(:/misc/remotecontrolwidget/images/num_9_hover.png);
+}

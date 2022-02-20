@@ -1,0 +1,113 @@
+QWidget {
+    background-color: rgb(30,30,30);
+}
+
+QLabel#nameLbl {
+    font: normal normal 35px;
+    color: white;
+}
+
+QLabel#infoLbl {
+    font: normal normal 18px;
+    color: white;
+}
+
+QLabel#curTimeLbl, QLabel#totaTimeLbl{
+    color: white;
+    font: normal bold 12px;
+}
+
+QPushButton {
+    border-style: none;
+    max-height: 32px;
+    max-width: 32px;
+    min-height: 32px;
+    min-width: 32px;
+    outline: none;
+}
+
+QPushButton#preBtn {
+    image: url(:/misc/musicwidget/images/previous.png);
+}
+
+QPushButton#pauseBtn {
+    image: url(:/misc/musicwidget/images/play.png);
+}
+
+QPushButton#nextBtn {
+    image: url(:/misc/musicwidget/images/next.png);
+}
+
+QPushButton#modeBtn {
+    image: url(:/misc/musicwidget/images/sequential.png);
+}
+
+QPushButton#volumeBtn {
+    image: url(:/misc/musicwidget/images/sound.png);
+}
+
+QSlider{
+    height: 38px;
+    padding-left: 9px;
+    padding-right: 9px;
+}
+
+QSlider#volumeSlider {
+    max-width: 100px;
+}
+
+QSlider::groove:horsizontal {
+    height: 6px;
+    border: 0px;
+    border-radius: 3px;
+    background: white;
+}
+
+QSlider::sub-page:horizontal {
+    background: rgb(255, 78, 78);
+    border-radius: 3px;
+}
+
+QSlider::handle:horizontal {
+    background: transparent;
+    width: 38px;
+    margin: -16px -9px;
+    border-image:url(:/misc/musicwidget/images/point.png);
+}
+
+QTableWidget {
+    color: rgb(203, 203, 201);
+    background: rgb(30,30,30);
+    border: 1px solid transparent;
+    border-top: 2px solid rgb(60, 60, 60);
+    gridline-color: rgb(30,30,30);
+    outline: none;
+}
+
+QHeaderView::section {
+    background: rgb(30,30,30);
+    color: rgb(203, 203, 201);
+    border:1px solid transparent;
+}
+
+QTableWidget::item::selected {
+    color:white;
+    background: rgb(48, 49, 44);
+}
+
+QScrollBar::handle:vertical {
+    background-color: rgb(30, 30, 30);
+}
+
+QScrollBar:vertical {
+    background-color: white;
+    max-width: 2px;
+}
+
+QScrollBar::add-line:vertical {
+    background: none;
+}
+
+QScrollBar::sub-line:vertical {
+    background: none;
+}

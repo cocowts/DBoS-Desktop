@@ -1,0 +1,51 @@
+QDialog#dialog {
+    background-color: rgb(0, 0, 0);
+}
+
+QWidget#ctrlWidget {
+    background-color: rgb(30, 30, 30);
+}
+
+QPushButton {
+    background-color: rgb(0, 0, 0);
+    border: 3px solid rgb(122, 122, 122);
+    border-radius: 2px;
+    padding: 8px;
+    font: normal normal 25px;
+    outline: none;
+    color: white;
+    max-height: 35px;
+    min-height: 35px;
+}
+
+QPushButton:pressed {
+    padding-right:6px;
+    padding-bottom:6px;
+}
+
+QComboBox {
+    background-color: rgba(0, 0, 0);
+    font: normal normal 25px;
+    color: white;
+    padding-left: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    outline: none;
+}
+
+QComboBox:on {
+    background: rgb(30, 30, 30);
+}
+
+QComboBox::drop-down {
+    border:none;
+}
+
+QLabel:disabled {
+    image: url(:/misc/camerawidget/images/point.png);
+}
+QComboBox QAbstractItemView {
+    background: rgb(75, 75, 75);
+    border: none;
+    font: normal normal 25px;outline: none;
+}

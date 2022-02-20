@@ -1,0 +1,28 @@
+QDialog {
+    background-color: white;
+}
+
+QLabel {
+    background-origin: content;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-image: url(:/misc/backlightwidget/images/bulb.png);
+}
+
+QPushButton {
+    max-width: 64px;
+    max-height: 64px;
+    min-width: 64px;
+    min-height: 64px;
+    border-style: none;
+    background-origin: content;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-image: url(":/misc/backlightwidget/images/selected_2.png");
+}
+
+QPushButton:checked {
+    background-image: url(":/misc/backlightwidget/images/selected_1.png");
+}

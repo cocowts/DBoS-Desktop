@@ -1,0 +1,15 @@
+QDialog#system_widget {
+    background-color: rgb(30,30,30);
+}
+
+QLabel#system_devoceModeTitle, QLabel#system_cpuTitle, QLabel#system_ramTitle,
+QLabel#system_osVersionTitle, QLabel#system_resolutionTitle, QLabel#system_storageTitle {
+    color: rgb(129, 129, 129);
+    font: normal bold 23px;
+}
+
+QLabel#system_devoceModeText, QLabel#system_cpuText, QLabel#system_ramText,
+QLabel#system_osVersionText, QLabel#system_resolutionText, QLabel#system_storageText {
+    color: white;
+    font: normal bold 25px;
+}

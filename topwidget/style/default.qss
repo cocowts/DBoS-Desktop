@@ -1,0 +1,57 @@
+QWidget#mainWidget {
+    background: transparent;
+}
+
+QLabel#cpuLbl {
+    image: url(:/misc/topwidget/image/cpu.png);
+    min-width: 32px;
+    min-height: 32px;
+    max-width: 32px;
+    max-height: 32px;
+}
+
+QLabel#cpuInfoLbl, QLabel#sysTimeLbl {
+    font: normal bold 18px;
+    color: white;
+    text-align: bottom;
+}
+
+QLabel#dotsLbl {
+    image: url(:/misc/topwidget/image/dots.png);
+    min-width: 32px;
+    min-height: 32px;
+    max-width: 32px;
+    max-height: 32px;
+}
+
+QLabel#vibrateLbl {
+    image: url(:/misc/topwidget/image/vibrate.png);
+    min-width: 32px;
+    min-height: 32px;
+    max-width: 32px;
+    max-height: 32px;
+}
+
+QLabel#cellSignalXLbl {
+    image: url(:/misc/topwidget/image/cellsignalx.png);
+    min-width: 32px;
+    min-height: 32px;
+    max-width: 32px;
+    max-height: 32px;
+}
+
+QLabel#wifiLbl {
+    image: url(:/misc/topwidget/image/wifi.png);
+    min-width: 32px;
+    min-height: 32px;
+    max-width: 32px;
+    max-height: 32px;
+}
+
+QLabel#batteryLbl {
+    image: url(:/misc/topwidget/image/battery.png);
+    min-width: 32px;
+    min-height: 32px;
+    max-width: 32px;
+    max-height: 32px;
+}

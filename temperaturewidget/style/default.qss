@@ -1,0 +1,8 @@
+QDialog#temperature_widget {
+    background-color: rgb(30,30,30);
+}
+
+QLabel#temperature_tempLbl, QLabel#temperature_humiLbl {
+    font: normal bold 30px;
+    color: white;
+}

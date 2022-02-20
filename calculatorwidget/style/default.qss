@@ -1,0 +1,14 @@
+QDialog {
+    background-color: rgb(30,30,30);
+}
+
+QLineEdit {
+    min-height: 90px;
+    color: white;
+    font: normal bold 60px;
+    background-color: rgb(30, 30, 30);
+    border: 1px solid transparent;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
